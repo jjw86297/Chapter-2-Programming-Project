@@ -1,5 +1,7 @@
-// Chapter 2 Programming Project.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+//Jacob Walrath
+//9/19/2024
+//Chapter 2 Programming Project
+//Ocean_Levels
 
 #include <iostream>
 
