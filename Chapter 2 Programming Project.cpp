@@ -4,19 +4,31 @@
 //Ocean_Levels
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    double years;
+
+    cout << "Enter an amount of years: ";
+    //The user will be able to enter any number of years, but 5, 7, and 10 will be used for this specific project.
+    cin >> years;
+
+    double high = years * 1.5;
+
+    cout << "The ocean level will be " << high << " mm. higher in " << years << " years!" << endl;
+
+    cout << "Enter an amount of years again: ";
+    //This process is repeated three times in order to fit all instructions into the program by only running it once.
+    cin >> years;
+    high = years * 1.5;
+    //Storing a new value into years and storing that value into high again is crucial here.
+    cout << "The ocean level will be " << high << " mm. higher in " << years << " years!" << endl;
+
+    cout << "Enter an amount of years once more: ";
+    cin >> years;
+    high = years * 1.5;
+    cout << "The ocean level will be " << high << " mm. higher in " << years << " years!" << endl;
+
+    return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
