@@ -13,12 +13,12 @@ int main()
     double town = 23.5;
     double highway = 28.9;
 
-    string method;
+    char method;
 
     cout << "Are you travelling in town or on the highway? Type one of the two in all lowercase. ";
     cin >> method;
 
-    double distance = gas_tank * method;
+    double distance = method;
 
     cout << "You will be able to drive " << distance << " miles in that case!";
 
