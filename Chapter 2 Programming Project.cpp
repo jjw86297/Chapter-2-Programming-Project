@@ -8,19 +8,15 @@ using namespace std;
 
 int main()
 {
-    double gas_tank = 20;
+    double gas_tank = 20.0;
 
     double town = 23.5;
     double highway = 28.9;
 
-    char method;
+    double town_distance = town * gas_tank;
+    double highway_distance = highway * gas_tank;
 
-    cout << "Are you travelling in town or on the highway? Type one of the two in all lowercase. ";
-    cin >> method;
-
-    double distance = method;
-
-    cout << "You will be able to drive " << distance << " miles in that case!";
+    cout << "You will be able to drive " << town_distance << " miles in town and " << highway_distance << " miles on the highway!";
 
     return 0;
 }
